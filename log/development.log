@@ -1,0 +1,780 @@
+Started GET "/" for 127.0.0.1 at 2020-07-12 15:53:07 -0400
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/michel/.rvm/gems/ruby-2.5.3/gems/railties-6.0.3.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/michel/.rvm/gems/ruby-2.5.3/gems/railties-6.0.3.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 6.6ms | Allocations: 465)
+Completed 200 OK in 19ms (Views: 12.9ms | ActiveRecord: 0.0ms | Allocations: 2623)
+
+
+Started GET "/" for 127.0.0.1 at 2020-07-12 20:36:20 -0400
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/michel/.rvm/gems/ruby-2.5.3/gems/railties-6.0.3.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/michel/.rvm/gems/ruby-2.5.3/gems/railties-6.0.3.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 5.4ms | Allocations: 465)
+Completed 200 OK in 13ms (Views: 7.4ms | ActiveRecord: 0.0ms | Allocations: 2624)
+
+
+Started GET "/pages/one" for 127.0.0.1 at 2020-07-12 20:37:20 -0400
+Processing by PagesController#one as HTML
+  Rendering pages/one.html.erb within layouts/application
+  Rendered pages/one.html.erb within layouts/application (Duration: 0.4ms | Allocations: 90)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/michel/Documentos/Desafio_Latam/ejercicios_rails/proyect/public/packs
+[Webpacker] Hash: 15d1bb7b54cf6326b9ba
+Version: webpack 4.43.0
+Time: 1387ms
+Built at: 2020-07-12 20:37:22
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-9afcbb5693aa87623e69.js    124 KiB  application  [emitted] [immutable]  application
+js/application-9afcbb5693aa87623e69.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-9afcbb5693aa87623e69.js js/application-9afcbb5693aa87623e69.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+Completed 200 OK in 2434ms (Views: 2432.7ms | ActiveRecord: 0.0ms | Allocations: 19415)
+
+
+Started GET "/pages/one" for 127.0.0.1 at 2020-07-12 20:40:01 -0400
+Processing by PagesController#one as HTML
+  Rendering pages/one.html.erb within layouts/application
+  Rendered pages/one.html.erb within layouts/application (Duration: 0.4ms | Allocations: 88)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.0ms | Allocations: 4713)
+
+
+Started GET "/pages/one" for 127.0.0.1 at 2020-07-12 20:49:58 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PagesController#one as HTML
+  Rendering pages/one.html.erb within layouts/application
+  Rendered pages/one.html.erb within layouts/application (Duration: 0.2ms | Allocations: 86)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 5.4ms | ActiveRecord: 0.0ms | Allocations: 4727)
+
+
+Started GET "/pages/one" for 127.0.0.1 at 2020-07-12 20:50:04 -0400
+Processing by PagesController#one as HTML
+  Rendering pages/one.html.erb within layouts/application
+  Rendered pages/one.html.erb within layouts/application (Duration: 0.1ms | Allocations: 5)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.0ms | Allocations: 3705)
+
+
+Started GET "/pages/one" for 127.0.0.1 at 2020-07-12 20:50:04 -0400
+Processing by PagesController#one as HTML
+  Rendering pages/one.html.erb within layouts/application
+  Rendered pages/one.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.0ms | Allocations: 3688)
+
+
+Started GET "/pages/one" for 127.0.0.1 at 2020-07-12 20:50:05 -0400
+Processing by PagesController#one as HTML
+  Rendering pages/one.html.erb within layouts/application
+  Rendered pages/one.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.0ms | Allocations: 3686)
+
+
+Started GET "/pages/one" for 127.0.0.1 at 2020-07-12 20:54:03 -0400
+Processing by PagesController#one as HTML
+  Rendering pages/one.html.erb within layouts/application
+  Rendered pages/one.html.erb within layouts/application (Duration: 0.3ms | Allocations: 86)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 7.6ms | ActiveRecord: 0.0ms | Allocations: 4723)
+
+
+Started GET "/pages/one" for 127.0.0.1 at 2020-07-12 20:54:44 -0400
+Processing by PagesController#one as HTML
+  Rendering pages/one.html.erb within layouts/application
+  Rendered pages/one.html.erb within layouts/application (Duration: 0.5ms | Allocations: 87)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 11.6ms | ActiveRecord: 0.0ms | Allocations: 4728)
+
+
+Started GET "/" for 127.0.0.1 at 2020-07-12 20:58:25 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PagesController#one as HTML
+  Rendering pages/one.html.erb within layouts/application
+  Rendered pages/one.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 5.6ms | ActiveRecord: 0.0ms | Allocations: 3803)
+
+
+DEPRECATION WARNING: Using `bin/rake routes` is deprecated and will be removed in Rails 6.1. Use `bin/rails routes` instead.
+ (called from load at /home/michel/.rvm/gems/ruby-2.5.3/bin/rake:23)
+Started GET "/" for 127.0.0.1 at 2020-07-12 21:06:43 -0400
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PagesController#one as HTML
+  Rendering pages/one.html.erb within layouts/application
+  Rendered pages/one.html.erb within layouts/application (Duration: 0.4ms | Allocations: 96)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 9.2ms | ActiveRecord: 0.0ms | Allocations: 4746)
+
+
+Started GET "/" for 127.0.0.1 at 2020-07-12 21:06:54 -0400
+Processing by PagesController#one as HTML
+  Rendering pages/one.html.erb within layouts/application
+  Rendered pages/one.html.erb within layouts/application (Duration: 0.3ms | Allocations: 93)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.0ms | Allocations: 4738)
+
+
+Started GET "/" for 127.0.0.1 at 2020-07-12 21:06:56 -0400
+Processing by PagesController#one as HTML
+  Rendering pages/one.html.erb within layouts/application
+  Rendered pages/one.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.0ms | Allocations: 3694)
+
+
+Started GET "/" for 127.0.0.1 at 2020-07-12 21:07:37 -0400
+Processing by PagesController#one as HTML
+  Rendering pages/one.html.erb within layouts/application
+  Rendered pages/one.html.erb within layouts/application (Duration: 0.4ms | Allocations: 93)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.0ms | Allocations: 4732)
+
+
+Started GET "/" for 127.0.0.1 at 2020-07-12 21:07:39 -0400
+Processing by PagesController#one as HTML
+  Rendering pages/one.html.erb within layouts/application
+  Rendered pages/one.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.0ms | Allocations: 3690)
+
+
+Started GET "/" for 127.0.0.1 at 2020-07-12 21:08:02 -0400
+Processing by PagesController#one as HTML
+  Rendering pages/one.html.erb within layouts/application
+  Rendered pages/one.html.erb within layouts/application (Duration: 0.5ms | Allocations: 93)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 8.6ms | ActiveRecord: 0.0ms | Allocations: 4742)
+
+
+Started GET "/" for 127.0.0.1 at 2020-07-12 21:08:23 -0400
+Processing by PagesController#one as HTML
+  Rendering pages/one.html.erb within layouts/application
+  Rendered pages/one.html.erb within layouts/application (Duration: 7.1ms | Allocations: 5102)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.0ms | Allocations: 9665)
+
+
+Started GET "/" for 127.0.0.1 at 2020-07-12 21:12:44 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PagesController#one as HTML
+  Rendering pages/one.html.erb within layouts/application
+  Rendered pages/one.html.erb within layouts/application (Duration: 1.0ms | Allocations: 650)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.0ms | Allocations: 5177)
+
+
+Started GET "/" for 127.0.0.1 at 2020-07-12 21:12:49 -0400
+Processing by PagesController#one as HTML
+  Rendering pages/one.html.erb within layouts/application
+  Rendered pages/one.html.erb within layouts/application (Duration: 0.7ms | Allocations: 550)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms | Allocations: 4162)
+
+
+Started GET "/" for 127.0.0.1 at 2020-07-12 21:12:51 -0400
+Processing by PagesController#one as HTML
+  Rendering pages/one.html.erb within layouts/application
+  Rendered pages/one.html.erb within layouts/application (Duration: 1.4ms | Allocations: 549)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 9.6ms | ActiveRecord: 0.0ms | Allocations: 4160)
+
+
+Started GET "/pages/three" for 127.0.0.1 at 2020-07-12 21:13:08 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/pages/three"):
+  
+actionpack (6.0.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.2) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/pages/three" for 127.0.0.1 at 2020-07-12 21:13:41 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PagesController#three as HTML
+  Rendering pages/three.html.erb within layouts/application
+  Rendered pages/three.html.erb within layouts/application (Duration: 0.3ms | Allocations: 88)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 5.5ms | ActiveRecord: 0.0ms | Allocations: 4060)
+
+
+Started GET "/pages/three" for 127.0.0.1 at 2020-07-12 21:19:40 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PagesController#three as HTML
+  Rendering pages/three.html.erb within layouts/application
+  Rendered pages/three.html.erb within layouts/application (Duration: 0.8ms | Allocations: 81)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 15ms (Views: 12.5ms | ActiveRecord: 0.0ms | Allocations: 4730)
+
+
+Started GET "/pages/three" for 127.0.0.1 at 2020-07-12 21:19:42 -0400
+Processing by PagesController#three as HTML
+  Rendering pages/three.html.erb within layouts/application
+  Rendered pages/three.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 4.8ms | ActiveRecord: 0.0ms | Allocations: 3696)
+
+
+Started GET "/pages/three" for 127.0.0.1 at 2020-07-12 21:19:44 -0400
+Processing by PagesController#three as HTML
+  Rendering pages/three.html.erb within layouts/application
+  Rendered pages/three.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms | Allocations: 3691)
+
+
+Started GET "/pages/three" for 127.0.0.1 at 2020-07-12 21:19:52 -0400
+Processing by PagesController#three as HTML
+  Rendering pages/three.html.erb within layouts/application
+  Rendered pages/three.html.erb within layouts/application (Duration: 0.3ms | Allocations: 81)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.0ms | Allocations: 4730)
+
+
+Started GET "/" for 127.0.0.1 at 2020-07-12 21:19:54 -0400
+Processing by PagesController#one as HTML
+  Rendering pages/one.html.erb within layouts/application
+  Rendered pages/one.html.erb within layouts/application (Duration: 0.9ms | Allocations: 646)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.0ms | Allocations: 4396)
+
+
+Started GET "/" for 127.0.0.1 at 2020-07-12 21:19:55 -0400
+Processing by PagesController#one as HTML
+  Rendering pages/one.html.erb within layouts/application
+  Rendered pages/one.html.erb within layouts/application (Duration: 1.4ms | Allocations: 549)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 5.7ms | ActiveRecord: 0.0ms | Allocations: 4157)
+
+
+Started GET "/" for 127.0.0.1 at 2020-07-12 21:19:57 -0400
+Processing by PagesController#one as HTML
+  Rendering pages/one.html.erb within layouts/application
+  Rendered pages/one.html.erb within layouts/application (Duration: 0.9ms | Allocations: 549)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.0ms | Allocations: 4153)
+
+
+Started GET "/" for 127.0.0.1 at 2020-07-12 21:19:57 -0400
+Processing by PagesController#one as HTML
+  Rendering pages/one.html.erb within layouts/application
+  Rendered pages/one.html.erb within layouts/application (Duration: 0.9ms | Allocations: 549)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.0ms | Allocations: 4162)
+
+
+Started GET "/" for 127.0.0.1 at 2020-07-12 21:20:08 -0400
+Processing by PagesController#one as HTML
+  Rendering pages/one.html.erb within layouts/application
+  Rendered pages/one.html.erb within layouts/application (Duration: 5.0ms | Allocations: 646)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 15ms (Views: 13.7ms | ActiveRecord: 0.0ms | Allocations: 5214)
+
+
+Started GET "/one" for 127.0.0.1 at 2020-07-12 21:20:08 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/one"):
+  
+actionpack (6.0.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.2) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2020-07-12 21:20:24 -0400
+Processing by PagesController#one as HTML
+  Rendering pages/one.html.erb within layouts/application
+  Rendered pages/one.html.erb within layouts/application (Duration: 1.2ms | Allocations: 550)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.0ms | Allocations: 4157)
+
+
+Started GET "/" for 127.0.0.1 at 2020-07-12 21:20:37 -0400
+Processing by PagesController#one as HTML
+  Rendering pages/one.html.erb within layouts/application
+  Rendered pages/one.html.erb within layouts/application (Duration: 1.0ms | Allocations: 645)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 7.9ms | ActiveRecord: 0.0ms | Allocations: 5220)
+
+
+Started GET "/" for 127.0.0.1 at 2020-07-12 21:20:59 -0400
+Processing by PagesController#one as HTML
+  Rendering pages/one.html.erb within layouts/application
+  Rendered pages/one.html.erb within layouts/application (Duration: 1.1ms | Allocations: 645)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 13.5ms | ActiveRecord: 0.0ms | Allocations: 5212)
+
+
+Started GET "/" for 127.0.0.1 at 2020-07-12 21:21:00 -0400
+Processing by PagesController#one as HTML
+  Rendering pages/one.html.erb within layouts/application
+  Rendered pages/one.html.erb within layouts/application (Duration: 1.3ms | Allocations: 550)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.0ms | Allocations: 4155)
+
+
+Started GET "/" for 127.0.0.1 at 2020-07-12 21:21:01 -0400
+Processing by PagesController#one as HTML
+  Rendering pages/one.html.erb within layouts/application
+  Rendered pages/one.html.erb within layouts/application (Duration: 1.5ms | Allocations: 549)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.0ms | Allocations: 4158)
+
+
+Started GET "/two" for 127.0.0.1 at 2020-07-12 21:21:02 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/two"):
+  
+actionpack (6.0.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.2) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2020-07-12 21:21:21 -0400
+Processing by PagesController#one as HTML
+  Rendering pages/one.html.erb within layouts/application
+  Rendered pages/one.html.erb within layouts/application (Duration: 2.7ms | Allocations: 549)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 11.0ms | ActiveRecord: 0.0ms | Allocations: 4155)
+
+
+Started GET "/three" for 127.0.0.1 at 2020-07-12 21:21:22 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/three"):
+  
+actionpack (6.0.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.2) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2020-07-12 21:21:37 -0400
+Processing by PagesController#one as HTML
+  Rendering pages/one.html.erb within layouts/application
+  Rendered pages/one.html.erb within layouts/application (Duration: 1.8ms | Allocations: 550)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms | Allocations: 4161)
+
+
+Started GET "/" for 127.0.0.1 at 2020-07-12 21:22:31 -0400
+Processing by PagesController#one as HTML
+  Rendering pages/one.html.erb within layouts/application
+  Rendered pages/one.html.erb within layouts/application (Duration: 2.6ms | Allocations: 646)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 15ms (Views: 13.8ms | ActiveRecord: 0.0ms | Allocations: 5221)
+
+
+Started GET "/" for 127.0.0.1 at 2020-07-12 21:22:33 -0400
+Processing by PagesController#one as HTML
+  Rendering pages/one.html.erb within layouts/application
+  Rendered pages/one.html.erb within layouts/application (Duration: 1.1ms | Allocations: 549)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.0ms | Allocations: 4157)
+
+
+Started GET "/pages/three" for 127.0.0.1 at 2020-07-12 21:22:34 -0400
+Processing by PagesController#three as HTML
+  Rendering pages/three.html.erb within layouts/application
+  Rendered pages/three.html.erb within layouts/application (Duration: 0.3ms | Allocations: 81)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.0ms | Allocations: 3911)
+
+
+Started GET "/pages/two" for 127.0.0.1 at 2020-07-12 21:22:35 -0400
+Processing by PagesController#two as HTML
+  Rendering pages/two.html.erb within layouts/application
+  Rendered pages/two.html.erb within layouts/application (Duration: 0.3ms | Allocations: 89)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.0ms | Allocations: 3922)
+
+
+Started GET "/" for 127.0.0.1 at 2020-07-12 21:22:35 -0400
+Processing by PagesController#one as HTML
+  Rendering pages/one.html.erb within layouts/application
+  Rendered pages/one.html.erb within layouts/application (Duration: 1.1ms | Allocations: 549)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 5.7ms | ActiveRecord: 0.0ms | Allocations: 4157)
+
+
+Started GET "/" for 127.0.0.1 at 2020-07-12 21:22:46 -0400
+Processing by PagesController#one as HTML
+  Rendering pages/one.html.erb within layouts/application
+  Rendered pages/one.html.erb within layouts/application (Duration: 1.9ms | Allocations: 645)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 7.1ms | ActiveRecord: 0.0ms | Allocations: 5217)
+
+
+Started GET "/" for 127.0.0.1 at 2020-07-12 21:23:00 -0400
+Processing by PagesController#one as HTML
+  Rendering pages/one.html.erb within layouts/application
+  Rendered pages/one.html.erb within layouts/application (Duration: 3.8ms | Allocations: 645)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 15ms (Views: 12.4ms | ActiveRecord: 0.0ms | Allocations: 5219)
+
+
+Started GET "/pages/two" for 127.0.0.1 at 2020-07-12 21:23:01 -0400
+Processing by PagesController#two as HTML
+  Rendering pages/two.html.erb within layouts/application
+  Rendered pages/two.html.erb within layouts/application (Duration: 0.2ms | Allocations: 86)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 4.8ms | ActiveRecord: 0.0ms | Allocations: 3913)
+
+
+Started GET "/pages/three" for 127.0.0.1 at 2020-07-12 21:23:02 -0400
+Processing by PagesController#three as HTML
+  Rendering pages/three.html.erb within layouts/application
+  Rendered pages/three.html.erb within layouts/application (Duration: 0.3ms | Allocations: 82)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 5.4ms | ActiveRecord: 0.0ms | Allocations: 3914)
+
+
+Started GET "/pages/three" for 127.0.0.1 at 2020-07-12 21:23:02 -0400
+Processing by PagesController#three as HTML
+  Rendering pages/three.html.erb within layouts/application
+  Rendered pages/three.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.0ms | Allocations: 3693)
+
+
+Started GET "/pages/two" for 127.0.0.1 at 2020-07-12 21:23:03 -0400
+Processing by PagesController#two as HTML
+  Rendering pages/two.html.erb within layouts/application
+  Rendered pages/two.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 7.9ms | ActiveRecord: 0.0ms | Allocations: 3689)
+
+
+Started GET "/pages/three" for 127.0.0.1 at 2020-07-12 21:23:04 -0400
+Processing by PagesController#three as HTML
+  Rendering pages/three.html.erb within layouts/application
+  Rendered pages/three.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms | Allocations: 3693)
+
+
+Started GET "/pages/two" for 127.0.0.1 at 2020-07-12 21:23:05 -0400
+Processing by PagesController#two as HTML
+  Rendering pages/two.html.erb within layouts/application
+  Rendered pages/two.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 5.5ms | ActiveRecord: 0.0ms | Allocations: 3696)
+
+
+Started GET "/pages/two" for 127.0.0.1 at 2020-07-12 21:23:06 -0400
+Processing by PagesController#two as HTML
+  Rendering pages/two.html.erb within layouts/application
+  Rendered pages/two.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 0.0ms | Allocations: 3691)
+
+
+Started GET "/pages/two" for 127.0.0.1 at 2020-07-12 21:23:06 -0400
+Processing by PagesController#two as HTML
+  Rendering pages/two.html.erb within layouts/application
+  Rendered pages/two.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.8ms | ActiveRecord: 0.0ms | Allocations: 3690)
+
+
+Started GET "/pages/two" for 127.0.0.1 at 2020-07-12 21:24:51 -0400
+Processing by PagesController#two as HTML
+  Rendering pages/two.html.erb within layouts/application
+  Rendered pages/two.html.erb within layouts/application (Duration: 1.9ms | Allocations: 89)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 10.3ms | ActiveRecord: 0.0ms | Allocations: 4744)
+
+
+Started GET "/pages/two" for 127.0.0.1 at 2020-07-12 21:26:52 -0400
+Processing by PagesController#two as HTML
+  Rendering pages/two.html.erb within layouts/application
+  Rendered pages/two.html.erb within layouts/application (Duration: 0.4ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 11.5ms | ActiveRecord: 0.0ms | Allocations: 3694)
+
+
+Started GET "/" for 127.0.0.1 at 2020-07-12 21:26:53 -0400
+Processing by PagesController#one as HTML
+  Rendering pages/one.html.erb within layouts/application
+  Rendered pages/one.html.erb within layouts/application (Duration: 1.2ms | Allocations: 646)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 0.0ms | Allocations: 4398)
+
+
+Started GET "/" for 127.0.0.1 at 2020-11-04 18:38:25 -0300
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PagesController#one as HTML
+  Rendering pages/one.html.erb within layouts/application
+  Rendered pages/one.html.erb within layouts/application (Duration: 4.4ms | Allocations: 3068)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 16ms (Views: 11.6ms | ActiveRecord: 0.0ms | Allocations: 9282)
+
+
+Started GET "/pages/two" for 127.0.0.1 at 2020-11-04 18:38:48 -0300
+Processing by PagesController#two as HTML
+  Rendering pages/two.html.erb within layouts/application
+  Rendered pages/two.html.erb within layouts/application (Duration: 0.8ms | Allocations: 90)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17ms (Views: 15.0ms | ActiveRecord: 0.0ms | Allocations: 3948)
+
+
+Started GET "/pages/two" for 127.0.0.1 at 2020-11-04 18:38:49 -0300
+Processing by PagesController#two as HTML
+  Rendering pages/two.html.erb within layouts/application
+  Rendered pages/two.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 19ms (Views: 17.2ms | ActiveRecord: 0.0ms | Allocations: 3715)
+
+
+Started GET "/pages/three" for 127.0.0.1 at 2020-11-04 18:38:49 -0300
+Processing by PagesController#three as HTML
+  Rendering pages/three.html.erb within layouts/application
+  Rendered pages/three.html.erb within layouts/application (Duration: 0.9ms | Allocations: 85)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 20ms (Views: 16.5ms | ActiveRecord: 0.0ms | Allocations: 3935)
+
+
+Started GET "/pages/two" for 127.0.0.1 at 2020-11-04 18:38:50 -0300
+Processing by PagesController#two as HTML
+  Rendering pages/two.html.erb within layouts/application
+  Rendered pages/two.html.erb within layouts/application (Duration: 0.1ms | Allocations: 5)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 15ms (Views: 13.5ms | ActiveRecord: 0.0ms | Allocations: 3717)
+
+
+Started GET "/" for 127.0.0.1 at 2020-11-04 18:38:50 -0300
+Processing by PagesController#one as HTML
+  Rendering pages/one.html.erb within layouts/application
+  Rendered pages/one.html.erb within layouts/application (Duration: 3.9ms | Allocations: 550)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 19ms (Views: 16.6ms | ActiveRecord: 0.0ms | Allocations: 4180)
+
+
+Started GET "/pages/two" for 127.0.0.1 at 2020-11-04 18:38:53 -0300
+Processing by PagesController#two as HTML
+  Rendering pages/two.html.erb within layouts/application
+  Rendered pages/two.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.0ms | Allocations: 3710)
+
+
+Started GET "/pages/three" for 127.0.0.1 at 2020-11-04 18:38:54 -0300
+Processing by PagesController#three as HTML
+  Rendering pages/three.html.erb within layouts/application
+  Rendered pages/three.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.0ms | Allocations: 3711)
+
+
+Started GET "/" for 127.0.0.1 at 2020-11-04 18:38:55 -0300
+Processing by PagesController#one as HTML
+  Rendering pages/one.html.erb within layouts/application
+  Rendered pages/one.html.erb within layouts/application (Duration: 2.3ms | Allocations: 549)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 10.8ms | ActiveRecord: 0.0ms | Allocations: 4175)
+
+
+Started GET "/" for 127.0.0.1 at 2020-11-04 19:41:39 -0300
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PagesController#one as HTML
+  Rendering pages/one.html.erb within layouts/application
+  Rendered pages/one.html.erb within layouts/application (Duration: 5.2ms | Allocations: 3068)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 26ms (Views: 18.2ms | ActiveRecord: 0.0ms | Allocations: 9360)
+
+
+Started GET "/pages/two" for 127.0.0.1 at 2020-11-04 19:41:42 -0300
+Processing by PagesController#two as HTML
+  Rendering pages/two.html.erb within layouts/application
+  Rendered pages/two.html.erb within layouts/application (Duration: 0.8ms | Allocations: 90)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 22ms (Views: 18.1ms | ActiveRecord: 0.0ms | Allocations: 3945)
+
+
+Started GET "/pages/three" for 127.0.0.1 at 2020-11-04 19:41:42 -0300
+Processing by PagesController#three as HTML
+  Rendering pages/three.html.erb within layouts/application
+  Rendered pages/three.html.erb within layouts/application (Duration: 1.0ms | Allocations: 85)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 22ms (Views: 18.9ms | ActiveRecord: 0.0ms | Allocations: 3943)
+
+
+Started GET "/pages/two" for 127.0.0.1 at 2020-11-04 19:41:44 -0300
+Processing by PagesController#two as HTML
+  Rendering pages/two.html.erb within layouts/application
+  Rendered pages/two.html.erb within layouts/application (Duration: 0.1ms | Allocations: 5)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.0ms | Allocations: 3716)
+
+
+Started GET "/" for 127.0.0.1 at 2020-11-04 19:41:45 -0300
+Processing by PagesController#one as HTML
+  Rendering pages/one.html.erb within layouts/application
+  Rendered pages/one.html.erb within layouts/application (Duration: 2.2ms | Allocations: 550)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 12.7ms | ActiveRecord: 0.0ms | Allocations: 4182)
+
+
+Started GET "/pages/two" for 127.0.0.1 at 2020-11-04 19:42:13 -0300
+Processing by PagesController#two as HTML
+  Rendering pages/two.html.erb within layouts/application
+  Rendered pages/two.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 9.8ms | ActiveRecord: 0.0ms | Allocations: 3717)
+
+
+Started GET "/pages/three" for 127.0.0.1 at 2020-11-04 19:42:35 -0300
+Processing by PagesController#three as HTML
+  Rendering pages/three.html.erb within layouts/application
+  Rendered pages/three.html.erb within layouts/application (Duration: 1.2ms | Allocations: 81)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 35ms (Views: 30.4ms | ActiveRecord: 0.0ms | Allocations: 4750)
+
+
+Started GET "/pages/two" for 127.0.0.1 at 2020-11-04 19:42:36 -0300
+Processing by PagesController#two as HTML
+  Rendering pages/two.html.erb within layouts/application
+  Rendered pages/two.html.erb within layouts/application (Duration: 1.1ms | Allocations: 86)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 26ms (Views: 23.1ms | ActiveRecord: 0.0ms | Allocations: 3936)
+
+
+Started GET "/" for 127.0.0.1 at 2020-11-04 19:42:37 -0300
+Processing by PagesController#one as HTML
+  Rendering pages/one.html.erb within layouts/application
+  Rendered pages/one.html.erb within layouts/application (Duration: 3.5ms | Allocations: 645)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 26ms (Views: 21.7ms | ActiveRecord: 0.0ms | Allocations: 4416)
+
+
+DEPRECATION WARNING: Using `bin/rake routes` is deprecated and will be removed in Rails 6.1. Use `bin/rails routes` instead.
+ (called from load at /home/michel/.rvm/gems/ruby-2.5.3/bin/rake:23)
+Started GET "/pages/three" for 127.0.0.1 at 2020-11-04 19:43:18 -0300
+Processing by PagesController#three as HTML
+  Rendering pages/three.html.erb within layouts/application
+  Rendered pages/three.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.0ms | Allocations: 3708)
+
+
+Started GET "/pages/two" for 127.0.0.1 at 2020-11-04 19:43:18 -0300
+Processing by PagesController#two as HTML
+  Rendering pages/two.html.erb within layouts/application
+  Rendered pages/two.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 24ms (Views: 21.4ms | ActiveRecord: 0.0ms | Allocations: 3717)
+
+
+Started GET "/" for 127.0.0.1 at 2020-11-04 19:43:19 -0300
+Processing by PagesController#one as HTML
+  Rendering pages/one.html.erb within layouts/application
+  Rendered pages/one.html.erb within layouts/application (Duration: 1.2ms | Allocations: 549)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.0ms | Allocations: 4173)
+
+
